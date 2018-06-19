@@ -1,0 +1,134 @@
+@import 'https://fonts.googleapis.com/css?family=Homemade+Apple|Raleway';
+
+* {
+	text-align: center;
+	font-family: "Raleway";
+	color: #fff;
+}
+
+body {
+	margin-top: 2%;
+	background-color: #F1BECF;
+}
+
+h1 {
+
+	font-family: 'Homemade Apple', cursive;
+
+	font-size: 40;
+	font-weight: 200;
+	color: #fff;
+
+	text-shadow: 2px 2px #E781A3;
+
+}
+
+h2 {
+	font-size: 20;
+}
+
+#results-div {
+position: relative;
+
+	top: 30%;
+}
+
+#heart-img {
+	width: 30px; 
+	height: auto; 
+	
+	position: absolute; 
+	top: 28%; 
+	right: 48%;
+}
+
+#input-div {
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.input-name {
+	float: left;
+	margin-top: 50;
+	margin-bottom: 50;
+	padding: 0;
+	padding-bottom: 10;
+
+	border: 0px;
+	border-bottom: 2px solid #fff;
+
+	font-size: 24;
+	text-align: left;
+	color: #fff;
+
+	width: 290px;
+	background-color: transparent;
+}
+
+.input-name:focus {
+	outline: none;
+	border-bottom: 2px solid #E781A3;
+	transition: ease-in 0.3s;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #EFB0C5;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #EFB0C5;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #EFB0C5;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #EFB0C5;
+}
+
+#button-check {
+	float: left;
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+
+	background-color: #fff;
+	border: 2px solid #fff;
+
+	font-size: 20;
+
+	padding: 10;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+#button-check:hover {
+	background-color: #F1BECF;
+	border: 2px solid #fff;
+	color: #fff;
+}
+
+#button-reset {
+	margin-top: 50px;
+
+	visibility: hidden;
+	text-align: center;
+
+	height: 40;
+	width: 95;
+
+	background-color: transparent;
+	border: 2px solid transparent;
+
+	font-family: "Raleway";
+	font-size: 18;
+
+	padding-bottom: 10;
+}
+
+#button-reset:hover {
+/*	background-color: #FF80AB;*/
+	border-bottom: 2px solid #E781A3;
+
+	color: #fff;
+}
